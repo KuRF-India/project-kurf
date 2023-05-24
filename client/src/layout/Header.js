@@ -10,7 +10,7 @@ const Header = () => {
             className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
             href="#demo"
           >
-            <img src={headerIcon} alt="" srcset="" width={"100px"} />
+            <img src={headerIcon} alt="" srcset="" width={"70px"} />
             {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -24,22 +24,23 @@ const Header = () => {
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg> */}
             <span className="ml-3 text-xl font-bold text-white">
-              KuRF-India <br />
+              KuRF
+              <br />
               <p className="text-xs font-normal">KUKI RESEARCH FORUM - INDIA</p>
             </span>
           </a>
         </div>
         <div className=" md:flex gap-2">
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-left">
+            <a className="mr-5 hover:text-gray-900" href="#objective">
+              Objectives
+            </a>
+
             <a className="mr-5 hover:text-gray-900" href="#about">
               About Us
             </a>
-
-            <a className="mr-5 hover:text-gray-900" href="#articles">
-              Articles
-            </a>
             <a className="mr-5 hover:text-gray-900" href="#footer">
-              Contact
+              Info. Center
             </a>
           </nav>
 
