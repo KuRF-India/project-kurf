@@ -5,7 +5,7 @@ const Content = () => {
     <>
       {/* hero-content */}
       <section
-        className="text-gray-600 body-font bg-hero-background bg-cover "
+        className="text-gray-600 body-font bg-hero-background bg-cover  "
         id="articles"
       >
         <div className="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center">
