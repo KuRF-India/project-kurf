@@ -1,14 +1,15 @@
 import React from "react";
+import heroTwo from "../assets/hero2.jpg";
 
 const Content = () => {
   return (
     <>
       {/* hero-content */}
       <section
-        className="text-gray-600 body-font bg-hero-background bg-cover  "
+        className="text-gray-600 body-font bg-hero-background bg-cover  md:bg-right"
         id="articles"
       >
-        <div className="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-10 md:py-36 md:flex-row flex-col-reverse items-center ">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-white">
               “SHINE THE NATION”
@@ -23,14 +24,15 @@ const Content = () => {
               </button>
             </div>
           </div>
-          {/* <div className="lg:max-w-lg md:w-1/2 w-5/6">
+          <div className="md:w-1/2 w-5/6 md:hidden mt-6 mb-2">
             <img
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded mx-auto"
               alt="hero"
-              src={idea}
-              style={{ heihg: "150px" }}
+              src={heroTwo}
+              width={300}
+              heigh={250}
             />
-          </div> */}
+          </div>
         </div>
       </section>
     </>

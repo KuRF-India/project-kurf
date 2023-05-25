@@ -13,8 +13,20 @@ const Objective = () => {
           </div>
 
           <div className="flex flex-wrap -m-4">
-            <div className="p-4 md:w-1/3 w-full">
-              <div className="h-full bg-gray-800 p-4 rounded text-gray-100">
+            <div className="p-4 md:w-1/3 w-full h-36 ">
+              <div className="h-full bg-gray-800 p-4 rounded text-gray-100 flex justify-between ">
+                <svg
+                  className="w-10 mt-1 mr-1 h-4"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
                 <p className=" leading-tight text-justify inline">
                   To promote the welfare and interests of Kuki scholars and
                   researchers in their pursuit of academic excellence in all
@@ -22,41 +34,101 @@ const Objective = () => {
                 </p>
               </div>
             </div>
-            <div className="p-4 md:w-1/3 w-full">
-              <div className="h-full bg-gray-800 p-4 rounded text-gray-100">
-                <p className=" leading-tight text-justify">
+            <div className="p-4 md:w-1/3 w-full h-36  ">
+              <div className="h-full bg-gray-800 p-4 rounded text-gray-100 flex justify-between">
+                <svg
+                  className="w-10 mt-1 mr-1 h-4"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+                <p className=" leading-tight text-justify ">
                   To promote scientific and objective research amongst scholars
                   of the Kuki community.
                 </p>
               </div>
             </div>
 
-            <div className="p-4 md:w-1/3 w-full">
-              <div className="h-full bg-gray-800 p-4 rounded text-gray-100">
+            <div className="p-4 md:w-1/3 w-full h-36">
+              <div className="h-full bg-gray-800 p-4 rounded text-gray-100 flex justify-between">
+                <svg
+                  className="w-10 mt-1 mr-1 h-4"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
                 <p className="leading-tight text-justify">
                   To provide a platform for intellectual discussions and debates
                   on various issues and problems concerning the Kuki society
                 </p>
               </div>
             </div>
-            <div className="p-4 md:w-1/3 w-full">
-              <div className="h-full bg-gray-800 p-4 rounded text-gray-100">
+            <div className="p-4 md:w-1/3 w-full h-36">
+              <div className="h-full bg-gray-800 p-4 rounded text-gray-100 flex justify-between">
+                <svg
+                  className="w-10 mt-1 mr-1 h-4"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
                 <p className="leading-tight text-justify">
                   To act as knowledge-driven think tank and forum for
                   dissemination of ideas and findings
                 </p>
               </div>
             </div>
-            <div className="p-4 md:w-1/3 w-full">
-              <div className="h-full bg-gray-800 p-4 rounded text-gray-100">
+            <div className="p-4 md:w-1/3 w-full h-36">
+              <div className="h-full bg-gray-800 p-4 rounded text-gray-100 flex justify-between">
+                <svg
+                  className="w-10 mt-1 mr-1 h-4"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
                 <p className="leading-tight text-justify">
                   To co-operate with other academic as well as non-academic
                   societies having similar objectives.
                 </p>
               </div>
             </div>
-            <div className="p-4 md:w-1/3 w-full">
-              <div className="h-full bg-gray-800 p-4 rounded text-gray-100">
+            <div className="p-4 md:w-1/3 w-full h-36">
+              <div className="h-full bg-gray-800 p-4 rounded text-gray-100 flex justify-between">
+                <svg
+                  className="w-10 mt-1 mr-1 h-4"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
                 <p className="leading-tight text-justify">
                   To carry out all such other activities conducive to the
                   attainment of the above objectives
