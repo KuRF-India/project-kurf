@@ -1,18 +1,15 @@
-import About from "./Component/About";
-import Content from "./Component/Content";
-import Objective from "./Component/Objective";
-import Footer from "./layout/Footer";
-import Header from "./layout/Header";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./layout/Home";
+import Article from "./Component/Article";
 
 function App() {
   return (
     <>
-      <Header />
-
-      <Content />
-      <Objective />
-      <About />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/article" element={<Article />} />
+      </Routes>
     </>
   );
 }
