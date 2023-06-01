@@ -3,6 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./layout/Home";
 import Article from "./Component/Article";
 
+// TODO: resolve glitch and routing
+// TODO: resolve Coming soon to read articles...
+
 function App() {
   return (
     <>
